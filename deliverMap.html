@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styleMap.css">
+  <title>DeliveryMap_AreaX</title>
+</head>
+<body>
+
+<!-- container of both parts-->
+<section class="container">
+<!-- insert map, the individual buildings and the buttons-->
+<div id="map">
+<!-- background map-->
+  <img src="map.png" class="map" >
+<!--Tietoraitti 4 -->
+  <img id="Tietoraitti4_green" class="Tietoraitti4_green" src="img_green/Tietoraitti4_green.png" style="display:none";>
+  <button id="button_Tietoraitti4_green" class="button_Tietoraitti4_green" onclick="functionTietoraitti4_green()"></button>
+  <button id="button_Tietoraitti4_red" class="button_Tietoraitti4_red" onclick="functionTietoraitti4_red()"></button>
+
+<!--Tietoraitti 6 -->
+  <img id="Tietoraitti6_green" class="Tietoraitti6_green" src="img_green/Tietoraitti6_green.png" style="display:none";>
+  <button id="button_Tietoraitti6_green" class="button_Tietoraitti6_green" onclick="functionTietoraitti6_green()"></button>
+  <button id="button_Tietoraitti6_red" class="button_Tietoraitti6_red" onclick="functionTietoraitti6_red()"></button>
+
+<!--Tietoraitti 8 -->
+  <img id="Tietoraitti8_green" class="Tietoraitti8_green" src="img_green/Tietoraitti8_green.png" style="display:none";>
+  <button id="button_Tietoraitti8_green" class="button_Tietoraitti8_green" onclick="functionTietoraitti8_green()"></button>
+  <button id="button_Tietoraitti8_red" class="button_Tietoraitti8_red" onclick="functionTietoraitti8_red()"></button>
+
+<!--Tietoraitti 10 -->
+  <img id="Tietoraitti10_green" class="Tietoraitti10_green" src="img_green/Tietoraitti10_green.png" style="display:none";>
+  <button id="button_Tietoraitti10_green" class="button_Tietoraitti10_green" onclick="functionTietoraitti10_green()"></button>
+  <button id="button_Tietoraitti10_red" class="button_Tietoraitti10_red" onclick="functionTietoraitti10_red()"></button>
+
+<!--Tutkijankatu 1 -->
+  <img id="Tutkijankatu1_green" class="Tutkijankatu1_green" src="img_green/Tutkijankatu1_green.png" style="display:none";>
+  <button id="button_Tutkijankatu1_green" class="button_Tutkijankatu1_green" onclick="functionTutkijankatu1_green()"></button>
+  <button id="button_Tutkijankatu1_red" class="button_Tutkijankatu1_red" onclick="functionTutkijankatu1_red()"></button>
+
+<!--Tutkijankatu 2 -->
+  <img id="Tutkijankatu2_green" class="Tutkijankatu2_green" src="img_green/Tutkijankatu2_green.png" style="display:none";>
+  <button id="button_Tutkijankatu2_green" class="button_Tutkijankatu2_green" onclick="functionTutkijankatu2_green()"></button>
+  <button id="button_Tutkijankatu2_red" class="button_Tutkijankatu2_red" onclick="functionTutkijankatu2_red()"></button>
+
+<!--Tutkijankatu 3 -->
+  <img id="Tutkijankatu3_green" class="Tutkijankatu3_green" src="img_green/Tutkijankatu3_green.png" style="display:none";>
+  <button id="button_Tutkijankatu3_green" class="button_Tutkijankatu3_green" onclick="functionTutkijankatu3_green()"></button>
+  <button id="button_Tutkijankatu3_red" class="button_Tutkijankatu3_red" onclick="functionTutkijankatu3_red()"></button>
+
+<!--Tutkijankatu 4 -->
+  <img id="Tutkijankatu4_green" class="Tutkijankatu4_green" src="img_green/Tutkijankatu4_green.png" style="display:none";>
+  <button id="button_Tutkijankatu4_green" class="button_Tutkijankatu4_green" onclick="functionTutkijankatu4_green()"></button>
+  <button id="button_Tutkijankatu4_red" class="button_Tutkijankatu4_red" onclick="functionTutkijankatu4_red()"></button>
+
+<!--Tutkijankatu 5 -->
+  <img id="Tutkijankatu5_green" class="Tutkijankatu5_green" src="img_green/Tutkijankatu5_green.png" style="display:none";>
+  <button id="button_Tutkijankatu5_green" class="button_Tutkijankatu5_green" onclick="functionTutkijankatu5_green()"></button>
+  <button id="button_Tutkijankatu5_red" class="button_Tutkijankatu5_red" onclick="functionTutkijankatu5_red()"></button>
+
+<!--Tutkijankatu 7A -->
+  <img id="Tutkijankatu7A_green" class="Tutkijankatu7A_green" src="img_green/Tutkijankatu7A_green.png" style="display:none";>
+  <button id="button_Tutkijankatu7A_green" class="button_Tutkijankatu7A_green" onclick="functionTutkijankatu7A_green()"></button>
+  <button id="button_Tutkijankatu7A_red" class="button_Tutkijankatu7A_red" onclick="functionTutkijankatu7A_red()"></button>
+
+<!--Tutkijankatu 7B -->
+  <img id="Tutkijankatu7B_green" class="Tutkijankatu7B_green" src="img_green/Tutkijankatu7B_green.png" style="display:none";>
+  <button id="button_Tutkijankatu7B_green" class="button_Tutkijankatu7B_green" onclick="functionTutkijankatu7B_green()"></button>
+  <button id="button_Tutkijankatu7B_red" class="button_Tutkijankatu7B_red" onclick="functionTutkijankatu7B_red()"></button>
+
+<!--Tieteenkatu 5 -->
+  <img id="Tieteenkatu5_green" class="Tieteenkatu5_green" src="img_green/Tieteenkatu5_green.png" style="display:none";>
+  <button id="button_Tieteenkatu5_green" class="button_Tieteenkatu5_green" onclick="functionTieteenkatu5_green()"></button>
+  <button id="button_Tieteenkatu5_red" class="button_Tieteenkatu5_red" onclick="functionTieteenkatu5_red()"></button>
+
+<!--Tieteenkatu 3A -->
+  <img id="Tieteenkatu3A_green" class="Tieteenkatu3A_green" src="img_green/Tieteenkatu3A_green.png" style="display:none";>
+  <button id="button_Tieteenkatu3A_green" class="button_Tieteenkatu3A_green" onclick="functionTieteenkatu3A_green()"></button>
+  <button id="button_Tieteenkatu3A_red" class="button_Tieteenkatu3A_red" onclick="functionTieteenkatu3A_red()"></button>
+
+<!--Tieteenkatu 3B -->
+  <img id="Tieteenkatu3B_green" class="Tieteenkatu3B_green" src="img_green/Tieteenkatu3B_green.png" style="display:none";>
+  <button id="button_Tieteenkatu3B_green" class="button_Tieteenkatu3B_green" onclick="functionTieteenkatu3B_green()"></button>
+  <button id="button_Tieteenkatu3B_red" class="button_Tieteenkatu3B_red" onclick="functionTieteenkatu3B_red()"></button>
+
+<div/>
+
+
+<!-- reset button -->
+
+<!--description-->
+
+<div class="description">
+  <div id="less" class="shortDescription" style="display:block">
+
+    <h3>Adress: number of houses</h3>
+      <p>No ads: number of houses</p>
+
+
+<button id="buttonMore" onclick="functionMore">More</button>
+</div>
+
+
+  <div id="more" class="longDescription" style="display:none">
+    <h3><u>Address</u></h3>
+      <p><u>No ads(number):</u></p>
+      <p>1st: x</p>
+      <p>2nd: x</p>
+      <p>3rd: x</p>
+      <p>4th: x</p>
+      <p>5th: x</p>
+
+      <p><u>Ads(number):</u></p>
+      <p>1st: x</p>
+      <p>2nd: x</p>
+      <p>3rd: x</p>
+      <p>4th: x</p>
+      <p>5th: x</p>
+
+
+    <button id="buttonLess" onclick="functionLess">Less</button>
+
+  </div>
+
+  <p>&nbsp;</p>
+
+  <button id="buttonReset" onclick="functionReset">Reset</button>
+  
+</section>
+
+
+
+<script src="scriptDeliver.js"></script>
+
+</body>
+</html>
