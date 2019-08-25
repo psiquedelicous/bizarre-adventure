@@ -1,0 +1,481 @@
+/* container */
+.container {
+  width: 1000px;
+}
+
+/* background map */
+#map {
+  float: left;
+  width: 550px;
+}
+
+.map {
+  width: 500px;
+  position:absolute;
+  top: 0px;
+  left: 10px;
+  z-index: 1;
+}
+/* buttons and buildings */
+
+/* Tietoraitti 4 */
+.button_Tietoraitti4_green {
+    background-color: #189200;
+    border: none;
+    color: black;
+    padding: 8px 8px;
+    position:absolute;
+    top: 391px;
+    left: 300px;
+    z-index: 3;
+}
+
+.button_Tietoraitti4_red {
+    background-color: #b80000;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 415px;
+    left: 295px;
+    z-index: 3;
+}
+
+.Tietoraitti4_green {
+  width: 46px;
+  position:absolute;
+  top: 391px;
+  left: 315px;
+  z-index: 2;
+}
+
+/* Tietoraitti 6 */
+
+.button_Tietoraitti6_green {
+    background-color: #189200;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 462px;
+    left: 287px;
+    z-index: 3;
+}
+
+.button_Tietoraitti6_red {
+    background-color: #b80000;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 485px;
+    left: 284px;
+    z-index: 3;
+}
+
+.Tietoraitti6_green {
+  width: 46px;
+  position:absolute;
+  top: 462px;
+  left: 302px;
+  z-index: 2;
+}
+
+/* Tietoraitti 8 */
+
+.button_Tietoraitti8_green {
+    background-color: #189200;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 533px;
+    left: 277px;
+    z-index: 3;
+}
+
+.button_Tietoraitti8_red {
+    background-color: #b80000;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 556px;
+    left: 273px;
+    z-index: 3;
+}
+
+.Tietoraitti8_green {
+  width: 46px;
+  position:absolute;
+  top: 533px;
+  left: 291px;
+  z-index: 2;
+}
+
+/* Tietoraitti 10 */
+
+.button_Tietoraitti10_green {
+    background-color: #189200;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 594px;
+    left: 267px;
+    z-index: 3;
+}
+
+.button_Tietoraitti10_red {
+    background-color: #b80000;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 617px;
+    left: 263px;
+    z-index: 3;
+}
+
+.Tietoraitti10_green {
+  width: 46px;
+  position:absolute;
+  top: 594px;
+  left: 281px;
+  z-index: 2;
+}
+
+/* Tutkijankatu 1 */
+
+.button_Tutkijankatu1_green {
+    background-color: #189200;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 263px;
+    left: 211px;
+    z-index: 3;
+}
+
+.button_Tutkijankatu1_red {
+    background-color: #b80000;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 285px;
+    left: 215px;
+    z-index: 3;
+}
+
+.Tutkijankatu1_green {
+  width: 38px;
+  position:absolute;
+  top: 265px;
+  left: 177px;
+  z-index: 2;
+}
+
+/* Tutkijankatu 2 */
+
+.button_Tutkijankatu2_green {
+    background-color: #189200;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 375px;
+    left: 140px;
+    z-index: 3;
+}
+
+.button_Tutkijankatu2_red {
+    background-color: #b80000;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 370px;
+    left: 165px;
+    z-index: 3;
+}
+
+.Tutkijankatu2_green {
+  width: 60px;
+  position:absolute;
+  top: 341px;
+  left: 123px;
+  z-index: 2;
+}
+
+/* Tutkijankatu 3 */
+
+.button_Tutkijankatu3_green {
+    background-color: #189200;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 245px;
+    left: 293px;
+    z-index: 3;
+}
+
+.button_Tutkijankatu3_red {
+    background-color: #b80000;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 266px;
+    left: 296px;
+    z-index: 3;
+}
+
+.Tutkijankatu3_green {
+  width: 35px;
+  position:absolute;
+  top: 246px;
+  left: 260px;
+  z-index: 2;
+}
+
+/* Tutkijankatu 4 */
+
+.button_Tutkijankatu4_green {
+    background-color: #189200;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 324px;
+    left: 259px;
+    z-index: 3;
+}
+
+.button_Tutkijankatu4_red {
+    background-color: #b80000;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 345px;
+    left: 263px;
+    z-index: 3;
+}
+
+.Tutkijankatu4_green {
+  width: 37px;
+  position:absolute;
+  top: 324px;
+  left: 227px;
+  z-index: 2;
+}
+
+/* Tutkijankatu 5 */
+
+.button_Tutkijankatu5_green {
+    background-color: #189200;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 227px;
+    left: 385px;
+    z-index: 3;
+}
+
+.button_Tutkijankatu5_red {
+    background-color: #b80000;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 250px;
+    left: 387px;
+    z-index: 3;
+}
+
+.Tutkijankatu5_green {
+  width: 34px;
+  position:absolute;
+  top: 231px;
+  left: 353px;
+  z-index: 2;
+}
+
+/* Tutkijankatu 7A */
+
+.button_Tutkijankatu7A_green {
+    background-color: #189200;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 179px;
+    left: 280px;
+    z-index: 3;
+}
+
+.button_Tutkijankatu7A_red {
+    background-color: #b80000;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 175px;
+    left: 301px;
+    z-index: 3;
+}
+
+.Tutkijankatu7A_green {
+  width: 55px;
+  position:absolute;
+  top: 188px;
+  left: 278px;
+  z-index: 2;
+}
+
+/* Tutkijankatu 7B */
+
+.button_Tutkijankatu7B_green {
+    background-color: #189200;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 178px;
+    left: 334px;
+    z-index: 3;
+}
+
+.button_Tutkijankatu7B_red {
+    background-color: #b80000;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 174px;
+    left: 355px;
+    z-index: 3;
+}
+
+.Tutkijankatu7B_green {
+  width: 45px;
+  position:absolute;
+  top: 190px;
+  left: 330px;
+  z-index: 2;
+}
+
+/* Tieteenkatu 5 */
+
+.button_Tieteenkatu5_green {
+    background-color: #189200;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 230px;
+    left: 128px;
+    z-index: 3;
+}
+
+.button_Tieteenkatu5_red {
+    background-color: #b80000;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 251px;
+    left: 133px;
+    z-index: 3;
+}
+
+.Tieteenkatu5_green {
+  width: 79px;
+  position:absolute;
+  top: 213px;
+  left: 96px;
+  z-index: 2;
+}
+
+/* Tieteenkatu 3A */
+
+.button_Tieteenkatu3A_green {
+    background-color: #189200;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 178px;
+    left: 147px;
+    z-index: 3;
+}
+
+.button_Tieteenkatu3A_red {
+    background-color: #b80000;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 172px;
+    left: 169px;
+    z-index: 3;
+}
+
+.Tieteenkatu3A_green {
+  width: 57px;
+  position:absolute;
+  top: 186px;
+  left: 146px;
+  z-index: 2;
+}
+
+/* Tieteenkatu 3B */
+
+.button_Tieteenkatu3B_green {
+    background-color: #189200;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 176px;
+    left: 205px;
+    z-index: 3;
+}
+
+.button_Tieteenkatu3B_red {
+    background-color: #b80000;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    position:absolute;
+    top: 172px;
+    left: 227px;
+    z-index: 3;
+}
+
+.Tieteenkatu3B_green {
+  width: 57px;
+  position:absolute;
+  top: 189px;
+  left: 200px;
+  z-index: 2;
+}
+
+/* Description */
+.description {
+  margin-left: 500px;
+  width: 500px;
+}
+
+
+.shortDescription {
+  font-size: 11px;
+}
+
+.longDescription {
+  font-size: 10px;
+}
