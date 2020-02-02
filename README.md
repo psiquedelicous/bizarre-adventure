@@ -1,7 +1,9 @@
 # delivery-app
 
+## Purpose
+Simple in-browser app created to assist a newspaper delivery job.
 
-
+## Description
 Single page with a map. Every building starts with the colour red and is a click away from being highlighted in green to be marked as finished.
 
 The combination of red and green is maintained even if the page is refreshed. Reset button changes everything to the red state again. 
